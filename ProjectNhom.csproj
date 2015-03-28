@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C96B7668-FF8E-4A84-A39D-572CBE52E1C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectNhom</RootNamespace>
+    <AssemblyName>ProjectNhom</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\ManagerCatelogies.cs" />
+    <Compile Include="DAO\ManagerOrderDetails.cs" />
+    <Compile Include="DAO\ManagerOrders.cs" />
+    <Compile Include="DAO\ManagerShippers.cs" />
+    <Compile Include="DAO\ManagerSuppliers.cs" />
+    <Compile Include="DTO\Category.cs" />
+    <Compile Include="DAO\Interface.cs" />
+    <Compile Include="DTO\Customers.cs" />
+    <Compile Include="DTO\Employees.cs" />
+    <Compile Include="DAO\ManagerCustomers.cs" />
+    <Compile Include="DAO\ManagerEmployees.cs" />
+    <Compile Include="DAO\ManagerProducts.cs" />
+    <Compile Include="DTO\Orders.cs" />
+    <Compile Include="DTO\OrderDetails.cs" />
+    <Compile Include="DTO\Product.cs" />
+    <Compile Include="DTO\Shippers.cs" />
+    <Compile Include="DTO\Supplier.cs" />
+    <Compile Include="DAO\ADOSql.cs" />
+    <Compile Include="FMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMain.Designer.cs">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FManager\FManagerEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FManager\FManagerEmployees.Designer.cs">
+      <DependentUpon>FManagerEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSub\FIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSub\FIn.Designer.cs">
+      <DependentUpon>FIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSub\FLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSub\FLogin.Designer.cs">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSub\FOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSub\FOut.Designer.cs">
+      <DependentUpon>FOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSub\FReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSub\FReport.Designer.cs">
+      <DependentUpon>FReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FMain.resx">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FManager\FManagerEmployees.resx">
+      <DependentUpon>FManagerEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSub\FLogin.resx">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TSQLFundamentals2008DataSet.xsc">
+      <DependentUpon>TSQLFundamentals2008DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TSQLFundamentals2008DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TSQLFundamentals2008DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TSQLFundamentals2008DataSet.xss">
+      <DependentUpon>TSQLFundamentals2008DataSet.xsd</DependentUpon>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TSQLFundamentals2008DataSet.cs">
+      <DependentUpon>TSQLFundamentals2008DataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TSQLFundamentals2008DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TSQLFundamentals2008DataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

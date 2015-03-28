@@ -1,0 +1,18 @@
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\obj\Debug\ProjectNhom.Properties.Resources.resources
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\obj\Debug\ProjectNhom.csproj.GenerateResource.Cache
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\bin\Debug\ProjectNhom.exe
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\bin\Debug\ProjectNhom.pdb
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\obj\Debug\ProjectNhom.exe
+C:\Users\FASmile\Documents\Visual Studio 2008\Projects\ProjectNhom\obj\Debug\ProjectNhom.pdb
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.Properties.Resources.resources
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.csproj.GenerateResource.Cache
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\bin\Debug\ProjectNhom.exe.config
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\bin\Debug\ProjectNhom.exe
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\bin\Debug\ProjectNhom.pdb
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.exe
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.pdb
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.FManagerEmployees.resources
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.FMain.resources
+C:\Users\FASmile\Desktop\Mana\ProjectNhom\obj\Debug\ProjectNhom.FSub.FLogin.resources
